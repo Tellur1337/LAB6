@@ -32,3 +32,14 @@ def secondtaskmethod(spisok: list, number: int, line: str):
 
 
 print({secondtaskmethod(spisok1, number, newline)})
+
+#task3
+s = list(input("Введите строку: "))
+print(s[2])
+a = int(input("Введите позицию: "))
+def str(s, a):
+    if a > len(s):
+        return print("delete operation is not possible")
+    del s[a]
+    return "".join(s)
+print(str(s, a))
